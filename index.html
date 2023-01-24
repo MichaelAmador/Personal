@@ -24,6 +24,7 @@
         <img class="header__profile__img" src="img/profile.jpg" alt="profile" />
       </a>
     </div>
+    <h1>I'm <span class="auto-typed" style="color:red;"></span></h1>
     <h1 class="header__title">Michael Amador's profile</h1>
 
     <!-- <div class="toggleWrapper">
@@ -109,7 +110,7 @@
 
   <section class="courses container" id="courses">
     <h2 class="text-center">
-      Online Courses
+      Online taken Courses
       <hr />
     </h2>
     <div class="courses__container">
@@ -140,7 +141,7 @@
     <hr />
   </section>
 
-  <div class="info container">   
+  <div class="info container">
     <div class="contact">
       <div>
         <h4 id="contact">Contact me:</h3>
@@ -163,7 +164,7 @@
         <h4 class="text-center cursive">Skills</h4>
       </div>
       <div class="languages__container">
-        <img class="language_img" src="img/svg/csharp.svg" alt="language" title="CSharp C#" />
+        <img class="language_img" src="img/svg/csharp.svg" alt="language" title="C-Sharp C#" />
 
         <img class="language_img" src="img/svg/vb-net.svg" alt="language" title="VB.NET" />
 
@@ -171,9 +172,14 @@
 
         <img class="language_img" src="img/svg/php.svg" alt="language" title="PHP" />
 
+        <img class="language_img language_img--learning" src="img/svg/flutter.svg" alt="language" title="Flutter" />
+
         <img class="language_img" src="img/svg/node-js.svg" alt="language" title="Node.js" />
 
-        <img class="language_img" src="img/svg/javascript.svg" alt="language" title="Javascript" />
+        <img class="language_img" src="img/svg/javascript.svg" alt="language" title="JavaScript" />
+
+        <img class="language_img language_img--learning" src="img/svg/typescript.svg" alt="language"
+          title="TypeScript" />
 
         <img class="language_img" src="img/svg/html5.svg" alt="language" title="HTML5" />
 
@@ -181,9 +187,19 @@
 
         <img class="language_img" src="img/svg/sass.svg" alt="language" title="SCSS/SASS" />
 
+        <img class="language_img" src="img/svg/gulp.svg" alt="language" title="Gulp" />
+
         <img class="language_img" src="img/svg/bootstrap.svg" alt="language" title="Bootstrap" />
 
+        <img class="language_img language_img--learning" src="img/svg/tailwind-css.svg" alt="language"
+          title="Tailwind css" />
+
         <img class="language_img" src="img/svg/React.js.svg" alt="language" title="REACT.JS" />
+
+        <img class="language_img language_img--learning" src="img/svg/vuejs.svg" alt="language" title="Vue.JS" />
+
+        <img class="language_img language_img--learning" src="img/svg/d3.svg" alt="language"
+          title="D3 Data-Driven Documents" />
 
         <img class="language_img" src="img/svg/git.svg" alt="language" title="Git + Github" />
 
@@ -193,7 +209,10 @@
 
         <img class="language_img" src="img/svg/mysql.svg" alt="language" title="MySQL" />
 
-        <img class="language_img" src="img/svg/power-bi.svg" alt="language" title="PowerBI" />
+        <!-- <img class="language_img" src="img/svg/power-bi.svg" alt="language" title="PowerBI" /> -->
+
+        <img class="language_img language_img--learning" src="img/svg/microsoft-azure.svg" alt="language"
+          title="Microsoft Azure" />
       </div>
     </div>
   </div>
@@ -203,6 +222,17 @@
   </footer>
 
   <script src="js/custom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script>
+    let typed = new Typed(".auto-typed", {
+      strings: ["programmer", "developer", "database administrator"],
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: true
+    });
+  </script>
+
 </body>
 
 </html>

@@ -216,8 +216,14 @@ body {
   border-radius: .5rem; */
 }
 
+.language_img--learning {
+  /* opacity: .1; */
+  display: none;
+}
+
 .language_img:hover {
-  transform: scale(1.03);
+  /* transform: scale(1.03); */
+  transform: translateY(3px);
 }
 
 @media (max-width: 768px) {
